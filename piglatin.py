@@ -4,7 +4,7 @@ class PigLatin:
         self.phrase = phrase
         translator = PigLatin.PigLatin("this is a phrase")
         phrase = translator.get_phrase()
-        translation = translator.translate() 
+        translation = translator.translate()
 
     def get_phrase(self) -> str:
         return self.phrase
